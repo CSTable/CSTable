@@ -1,0 +1,3 @@
+A1 임태연 imty0114 imty0114@gmail.com 2023-11-20 2 A101 A109
+A2 윤태연 imty0115 imty0115@gmail.com 2023-11-23 2 A102 A108
+A3 김태연 imty0116 imty0116@gmail.com 2023-11-20 3 A101 A109 A203
