@@ -1,10 +1,10 @@
-package Reservation;
+package Menu;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import Managable.Reservation;
 import main.myMain;
-import mgr.Manager;
 
 public class ReservationMenu {
     Scanner scan;

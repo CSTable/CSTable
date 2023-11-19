@@ -1,11 +1,10 @@
-package Member;
+package Menu;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Reservation.Reservation;
+import Managable.Member;
 import main.myMain;
-import mgr.Manager;
 
 public class MemberMenu {
 

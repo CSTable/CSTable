@@ -1,4 +1,4 @@
-package Restaurant;
+package Menu;
 
 import main.myMain;
 import mgr.Manager;

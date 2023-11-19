@@ -1,11 +1,5 @@
 package Menu;
 
-import Member.MemberMenu;
-import Reservation.Reservation;
-import Reservation.ReservationMenu;
-import Restaurant.RestaurantMenu;
-import mgr.Manager;
-
 import java.util.Scanner;
 
 public class MainMenu {

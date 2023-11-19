@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-import Member.Member;
 import main.myMain;
 
 import java.util.ArrayList;
@@ -51,6 +50,13 @@ public class Manager<T extends Manageable> {
 			if(t.matches(kwd)) returnList.add(t);
 		}
 		return returnList;
+	}
+
+	public void remove(T delObj){
+		for (T obj: manageableList){
+			if (obj == delObj)
+				manageableList.remove(delObj);
+		}
 	}
 
 	public void setMain(myMain main){
