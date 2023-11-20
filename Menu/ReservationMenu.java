@@ -12,7 +12,7 @@ public class ReservationMenu {
     public ArrayList<Reservation> reserveList = myMain.reservationMgr.manageableList;
 
 
-    public ReservationMenu(Scanner scan){
+    public ReservationMenu(Scanner scan) {
         this.scan = scan;
     }
 
@@ -46,16 +46,10 @@ public class ReservationMenu {
         }
     }
 
-    private void newReservation(){
+    private void newReservation() {
         System.out.println("(1) 회원 예약 (2) 비회원 예약");
         int isMember = scan.nextInt();
         // TODO 관련 기능 미구현, 추후 기존 회원 객체 연결 또는 새로운 회원 가입 기능 필요
-
-        if(isMember == 2){
-            Reservation re = new Reservation("a");
-            re.readNew(scan);
-            reserveList.add(re);
-        }
     }
 
     private void searchReservation() { // 예약 검색

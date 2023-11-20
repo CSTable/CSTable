@@ -24,6 +24,7 @@ public class Manager<T extends Manageable> {
 	public void readAll(String filename, Factory<T> fac) {
 		Scanner filein = openFile(filename);
 		T mgr = null;
+		System.out.println(filename);
 		while(filein.hasNext()) {
 			mgr = fac.create(filein);
 			mgr.read(filein);

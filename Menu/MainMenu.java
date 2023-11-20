@@ -21,9 +21,6 @@ public class MainMenu {
             case 2 -> {
                 reservationMenu();
             }
-            case 3 -> {
-                restaurantMenu();
-            }
             default -> {
                 System.exit(0);
             }
@@ -42,10 +39,5 @@ public class MainMenu {
         menu();
     }
 
-    private void restaurantMenu() {
-        RestaurantMenu restaurantMenu = new RestaurantMenu(scan);
-        restaurantMenu.run();
-        menu();
-    }
 
 }

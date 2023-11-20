@@ -46,6 +46,11 @@ public class Member implements Manageable, MemberSpecific{
     }
 
 	@Override
+	public boolean matchesId(String kwd) {
+		return id.equals(kwd);
+	}
+
+	@Override
 	public boolean matchesPassword(String kwd) {
 		if(password.equals(kwd))
 			return true;
